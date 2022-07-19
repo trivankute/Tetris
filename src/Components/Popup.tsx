@@ -64,8 +64,7 @@ function Popup({handlePopUp, forStop, forWelcome, forLose, score,}
                 <Card.Body>
                     <div className=' d-flex flex-column justify-content-center align-items-center'  style={{top:0}}>
                     <Card.Title>{title}
-
-                    {(name!=="")&& forWelcome? 
+                    {forWelcome && (((name!==""))?
                     <>
                     , <span className="text-primary">
                         {name}
@@ -77,7 +76,8 @@ function Popup({handlePopUp, forStop, forWelcome, forLose, score,}
                     <span className="text-primary">
                         Do you want to set your name in the profile?
                     </span>
-                    </>}
+                    </>)
+                    }
 
                     </Card.Title>
                     <Card.Text>
