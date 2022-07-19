@@ -17,3 +17,7 @@ import {faWrench} from '@fortawesome/free-solid-svg-icons'
 useContext se~ chi? render moi~ cai' context.provider th, ko render lai. children huhu
 
 giao tiep giua cac component bang cac eventBus, document. dispatch(customEvent)
+
+combo when readme r ma ko can -f
+git pull --rebase origin master
+git push origin master  
