@@ -1,0 +1,8 @@
+.Navbar_toggle{
+    color:#333;
+    background-color:white;
+    font-weight:500;
+}
+.Navbar_toggle:hover{
+    background-color:rgb(199, 199, 199);
+}

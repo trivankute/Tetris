@@ -1,0 +1,19 @@
+ko bi. dinh' reference bang cach Json.parse cua Json.stringify haha
+isoModule to false
+su dung. react-bootstrap de set.
+JSX.Element cho function component bthg
+dau' ! de? ko bi. null
+set useRef(null)
+JoyStickRef.current!.getBoundingClientRect().y; is the best
+memo doi vs style se bi render lai.
+useCallback doi vs cac functin chi can render 1 lan
+tao. file declaration.d.ts trong /src vs declare module "*.module.css"; de import css module
+font icon cx can` ph react giong bootstrap
+de add dc icon can` phai
+import { IconProp } from '@fortawesome/fontawesome-svg-core';
+r import as IconProp la dc
+import {faWrench} from '@fortawesome/free-solid-svg-icons'
+
+useContext se~ chi? render moi~ cai' context.provider th, ko render lai. children huhu
+
+giao tiep giua cac component bang cac eventBus, document. dispatch(customEvent)
