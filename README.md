@@ -1,46 +1,12 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Tetris made by myself in 10 days, was written completely in ReactJs, basic knowledge of Typescript.
+Some crucial dependencies was used in the project: react-bootstrap, react-fortawesome, clsx.
+Some hooks were used: useState, useEffect as the engine, memo and useCallback to optimize the experience, useRef.
+Crucial technique was used: Event_bus to communicate between components.
+Unique features: 
+  + Basic standard tetris, with calculate score, button Pause to stop the game.
+  + After a finished round, the pop up will show the exp equal to the score, and sum it to the user's exp
+  + If the user ranked up, the pop up would show that they recently had new rank.
+  + This tetris has responsive version with a customized Joystick to control the moving's direction.
+  + The profile button to show the user information, the user can adjust as they want, having the exp and the rank system
+  with unique effect when the level number is clicked in. All the information is saved in the local storage
+Link for test on Netlify: https://62d6a34c4a395b166dfa8398--tetrisfortestingunofficial.netlify.app
