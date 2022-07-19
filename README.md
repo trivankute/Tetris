@@ -1,7 +1,7 @@
 Tetris made by myself in 10 days, was written completely in ReactJs, basic knowledge of Typescript.
 Some crucial dependencies was used in the project: react-bootstrap, react-fortawesome, clsx.
 Some hooks were used: useState, useEffect as the engine, memo and useCallback to optimize the experience, useRef.
-Crucial technique was used: Event_bus to communicate between components.
+Crucial technique was used: Event_bus to communicate between components, module css for the styles, file .d.ts to import css file in typescript.
 Unique features: 
   + Basic standard tetris, with calculate score, button Pause to stop the game.
   + After a finished round, the pop up will show the exp equal to the score, and sum it to the user's exp
