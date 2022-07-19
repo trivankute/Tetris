@@ -8,5 +8,5 @@ Unique features:
   + If the user ranked up, the pop up would show that they recently had new rank.
   + This tetris has responsive version with a customized Joystick to control the moving's direction.
   + The profile button to show the user information, the user can adjust as they want, having the exp and the rank system
-  with unique effect when the level number is clicked in. All the information is saved in the local storage
+  with unique effect when the level number is clicked. All the information is saved in the local storage.
 Link for test on Netlify: https://62d6aed5934590214681c99e--tetrisfortestingunofficial.netlify.app
